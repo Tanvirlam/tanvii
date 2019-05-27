@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{}
+.container{
+    width: 950px;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    padding: 30px 0;
+}
+.logo{
+    width: 20%;
+    float: left;
+    color: #28377e;
+}
+.logo a{
+   text-decoration: none;
+   font-size: 17px;
+   text-transform: uppercase;
+
+}
+.logo  a h1{}
+.logo a h1:hover{}
+
+
+nav{
+    text-align: right;
+    width: 80%;
+    float: left;
+}
+nav ul{
+  float: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+nav ul li img{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28377e;
+    font-weight: 600;
+    display: block;
+}
+nav ul li a:hover{}
+
+hr{
+    width: 750px;
+    height: 2px;
+    background: black;
+    display: block;
+    margin-top: 32px;
+}
+
+nav ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #2fa91a;
+    font-weight: 600;
+    display: block;
+    text-transform: uppercase;
+
+}
+.banner-section{
+    min-height: 567px;
+    background: url(bannerbg.jpg); 
+    background-size: contain, cover;      
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
+   
+    
+}
+.banner-content{
+    position: absolute;
+    left: 50%;
+    top: 84%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.lore{
+  margin-top: 45px;
+  
+}
+.lore p{
+   text-align: center;
+    position: relative;
+    left: 26%;
+    transform: translateY(-50%);
+    width: 550px;
+}
+
+.btn button{
+    background: #34b939;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    padding: 16px 39px;
+    font-size: 18px;
+    display: block;
+    border: 1px solid #0de443;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 20px
+}
